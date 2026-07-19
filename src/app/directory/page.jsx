@@ -78,7 +78,7 @@ const UserView = () => {
           ) : currentItems.length > 0 ? (
             currentItems.map((c) => (
               <div key={c.id} className="bg-white p-6 rounded-[2rem] border border-blue-50 shadow-sm flex items-center justify-between hover:shadow-md hover:border-blue-100 transition-all">
-                <h3 className="font-bold text-blue-950 text-lg">{c.ruangan}</h3>
+                <h3 className="font-bold text-blue-950">{c.ruangan}</h3>
                 <div className="flex items-center gap-2 bg-blue-50 text-blue-700 px-6 py-3 rounded-2xl font-black cursor-default">
                   <Phone size={16} /> {c.telepon}
                 </div>
